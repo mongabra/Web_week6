@@ -1,0 +1,45 @@
+body {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background: rgb(26, 15, 15);
+  color: white;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 12px;
+}
+
+#formMessages {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}
